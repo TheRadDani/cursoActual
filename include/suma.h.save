@@ -1,0 +1,13 @@
+#ifdef SUMA_H
+#define SUMA_H
+#include<iostream>
+#pragma once
+class Blah
+{
+	public:
+	inline void boo()
+	{
+		std::cout<<"boo"<<endl;
+	}
+};
+#endif//SUMA_H
